@@ -1,15 +1,31 @@
 from typing import List, Dict
+import csv
 
 
 class ProcessJobs:
     def __init__(self) -> None:
         self.jobs_list = list()
 
-    def read(self) -> List[Dict]:
-        pass
+    def read(self, path='data/jobs.csv') -> List[Dict]:
+        file = open(path, 'r')
+        content = csv.DictReader(file, delimiter=",", quotechar='"')
+        header, *data = content
+        self.jobs_list = [header, *data]
 
     def get_unique_job_types(self) -> List[str]:
-        pass
+        unique_type = []
+
+        for job in self.jobs_list:
+            type = job['job_type']
+            if type not in unique_type:
+                unique_type.append(type)
+        return unique_type
 
     def filter_by_multiple_criteria(self) -> List[dict]:
         pass
+
+
+ppp = ProcessJobs()
+ppp.read()
+print(ppp.jobs_list[0])
+print(ppp.get_unique_job_types())
