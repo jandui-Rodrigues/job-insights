@@ -22,7 +22,7 @@
 
 </details>
 <details>
-  <summary><strong>⚠ Clonado É executando o projeto</strong></summary><br />
+  <summary><strong>⚠ Clonando É executando o projeto</strong></summary><br />
 
   1. Clone o repositório
 
