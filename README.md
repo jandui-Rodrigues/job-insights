@@ -1,7 +1,7 @@
 # Job Insights
 
-<details>
-  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
+
+  <strong>👨‍💻 O que foi desenvolvido</strong><br />
   <p align="center">
     <img src="images/job.png" alt="Logo Aplicação" width="300"/>
   </p>
@@ -21,8 +21,6 @@
     <li>Escrever testes com Pytest.</li>
     <li>Escrever seus próprios módulos e importá-los em outros códigos.</li>
   </ul>
-
-</details>
 <details>
   <summary><strong>⚠ Clonando É executando o projeto</strong></summary><br />
 
