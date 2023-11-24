@@ -41,6 +41,36 @@
   - `python3 -m pip install -r dev-requirements.txt`
 </details>
 <details>
+    <summary>
+      🐳 <strong>Rodando o projeto com Docker</strong>
+    </summary>
+    <br>
+
+Clone este repositório
+
+    $ git clone git@github.com:jandui-Rodrigues/FutebolClub.git
+
+Acesse a pasta do projeto no terminal/cmd
+
+    $ cd job-insights
+
+iniciando com compose o docker compose
+
+    $ docker-compose up -d
+
+Para remover os conteiners do docker-compose
+
+    $ docker-compose compose-down
+
+Criando uma imagem Docker
+
+    $  docker build -t job-insights .
+Criando um conteiner Docker
+
+    $  docker run -d -it --name job-container -v .:/projeto job-insights
+
+</details>
+<details>
   <summary><strong>🏕️ Ambiente Virtual</strong></summary><br />
   O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
 
