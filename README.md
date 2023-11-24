@@ -21,3 +21,20 @@
   </ul>
 
 </details>
+<details>
+  <summary><strong>⚠ Clonado É executando o projeto</strong></summary><br />
+
+  1. Clone o repositório
+
+  - Use o comando: `git clone git@github.com:tryber/sd-031-b-project-job-insights.git`.
+  - Entre na pasta do repositório que você acabou de clonar:
+    - `cd sd-031-b-project-job-insights`
+
+  2. Crie o ambiente virtual para o projeto
+
+  - `python3 -m venv .venv && source .venv/bin/activate`
+  
+  3. Instale as dependências
+
+  - `python3 -m pip install -r dev-requirements.txt`
+</details>
