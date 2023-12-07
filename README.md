@@ -46,7 +46,7 @@
 
 Clone este repositório
 
-    $ git clone git@github.com:jandui-Rodrigues/FutebolClub.git
+    $ git clone git@github.com:jandui-Rodrigues/job-insights.git
 
 Acesse a pasta do projeto no terminal/cmd
 
