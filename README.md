@@ -28,7 +28,7 @@
 
   - Use o comando: `git clone git@github.com:jandui-Rodrigues/job-insights.git
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-031-b-project-job-insights`
+    - `cd job-insights `
 
   2. Crie o ambiente virtual para o projeto
 
